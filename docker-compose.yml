@@ -28,7 +28,7 @@ services:
   app-client:
     image: dhouha20/frontend-app:latest
     ports:
-      - "4200:80" # Map the exposed port 80 on the container to port 8081 on the host machine
+      - "4200:80" # Map the exposed port 80 on the container to port 4200 on the host machine
     restart: always
     depends_on:
       - app-server
